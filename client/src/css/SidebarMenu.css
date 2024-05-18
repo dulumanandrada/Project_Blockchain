@@ -1,0 +1,62 @@
+.nav-pills li a:hover {
+    background-color: rgba(10, 126, 164, 0.5);
+}
+
+.custom-bg-color {
+    left: 0;
+    position: fixed;
+    background-color: rgba(35,39,47, 1);
+    width: 300px;
+}
+
+.custom-border {
+    border: 2px solid rgba(35,39,47, 1);
+    /* background-color: blue; */
+}
+
+.main,
+.in-main {
+    width: max-content;
+}
+
+.content {
+    width: 300px;
+}
+
+.navLinkActive {
+    /* background-color: #0a7ea4; */
+    background-color: rgba( 10, 126, 164, 1);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.margin-top {
+    margin-top: 40px;
+    width: fit-content;
+}
+
+.menu-bar {
+    width: max-content;
+    height: 100%;
+}
+
+.menu {
+    background-color: rgba(35,39,47, 1);
+}
+
+.pills {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.one-pill {
+    margin: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    padding-left: 10px !important;
+}

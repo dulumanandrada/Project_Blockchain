@@ -105,6 +105,108 @@
       "artifacts": [
         "patient"
       ]
+    },
+    "/Users/andradaduluman/Desktop/Facultate/an_3/sem2/blockchain/tryblockchain/Project_Blockchain/contracts/chai.sol": {
+      "lastModificationDate": 1716241235709,
+      "contentHash": "17f35e3bd95ef634b15a8a484e31be7e",
+      "sourceName": "contracts/chai.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/Users/andradaduluman/Desktop/Facultate/an_3/sem2/blockchain/tryblockchain/Project_Blockchain/contracts/doctor.sol": {
+      "lastModificationDate": 1716275627214,
+      "contentHash": "5e648ae4ac393942f67bae366e524a43",
+      "sourceName": "contracts/doctor.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPatient",
+        "doctor"
+      ]
+    },
+    "/Users/andradaduluman/Desktop/Facultate/an_3/sem2/blockchain/tryblockchain/Project_Blockchain/contracts/patient.sol": {
+      "lastModificationDate": 1716291152556,
+      "contentHash": "e7557d7796612b1f7ab940abcc1d874b",
+      "sourceName": "contracts/patient.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "patient"
+      ]
     }
   }
 }

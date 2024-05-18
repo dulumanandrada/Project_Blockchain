@@ -1,0 +1,96 @@
+.margin-menu {
+    /* margin-left: 300px; */
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.welcome-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    width: 100%;
+    height: calc(100% - 40px);
+    background-image: url("../assets/doctors.jpg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.div-register-form {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+}
+.form-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    width: 100%;
+
+    .all-inputs {
+        display: flex;
+        flex-direction: column;
+        .inputs-left {
+            margin-right: 10px;
+        }
+        .inputs-right {
+            margin-left: 10px;
+        }
+        .inputs-left, .inputs-right {
+            width: calc(50% - 10px);
+        }
+        input {
+            width: 50%;
+        }
+        .form-outline {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+    }
+
+    .all-3-inputs {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+    }
+}
+
+.allow-btns {
+    width: max-content;
+    align-self: center;
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.div-btn {
+    margin: 20px;
+}
+
+.list-content {
+    margin-left: 20px;
+}
+
+.content-a {
+    display: flex;
+    flex-direction: column;
+}
+
+.error-content {
+    max-width: 300px !important;
+    text-overflow: ellipsis;
+}

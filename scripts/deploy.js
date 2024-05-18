@@ -2,12 +2,12 @@
 const hre = require("hardhat");
 
 async function main() {
-  const Chai = await hre.ethers.getContractFactory("chai"); //fetching bytecode and ABI
-  const chai = await Chai.deploy(); //creating an instance of our smart contract
+  // const Chai = await hre.ethers.getContractFactory("chai"); //fetching bytecode and ABI
+  // const chai = await Chai.deploy(); //creating an instance of our smart contract
 
-  await chai.deployed();//deploying your smart contract
+  // await chai.deployed();//deploying your smart contract
 
-  console.log("Deployed chai contract address:",`${chai.address}`);
+  // console.log("Deployed chai contract address:",`${chai.address}`);
 
   const Patient = await hre.ethers.getContractFactory("patient"); //fetching bytecode and ABI
   const patient = await Patient.deploy(); //creating an instance of our smart contract
@@ -31,4 +31,6 @@ main().catch((error) => {
   process.exitCode = 1;
 });
 //deployed contract address on sepolia
-//0x0743B1C274110c3E7DA765cF56E5E362F17cd8eb
+// Deployed chai contract address: 0xB341d24445fFb391B3938Fb1b7fFd771589c2f9C
+// Deployed patient contract address: 0xa872949ba4E859B400C66fD771cC3539990CE822
+// Deployed doctor contract address: 0x7804BE45Ded33b7b81DC192d093fF0ac9a4ec110
